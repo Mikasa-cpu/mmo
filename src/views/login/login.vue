@@ -1,10 +1,28 @@
 <template>
-  <div class="flex">
-    <img
-      src="../../images/appm3V1L6Y3C3podIGShCo686dXRRY4i.png"
-      alt=""
-      class="w-[35vw]"
-    />
+  <div>
+    <a-carousel autoplay class="w-[35vw]">
+      <div>
+        <img
+          src="../../images/appm3V1L6Y3C3podIGShCo686dXRRY4i.png"
+          alt=""
+          class="w-[35vw]"
+        />
+      </div>
+      <div>
+        <img
+          src="../../images/app9KTBmXHMK2mtI9RHyzPDs-h0NXne1.png"
+          alt=""
+          class="w-[35vw]"
+        />
+      </div>
+      <div>
+        <img
+          src="../../images/appzx4bpYR9rpFdZULrF9EFycs2l-416.png"
+          alt=""
+          class="w-[35vw]"
+        />
+      </div>
+    </a-carousel>
     <div class="fixed top-[13.5vw] right-[25vw]">
       <h1 class="mb-[4vw] ml-[4vw]">登录，即刻创建你的应用</h1>
       <a-space direction="vertical">
@@ -63,4 +81,10 @@ watch(value1, () => {
 const checked = ref(false);
 </script>
 
-<style scoped></style>
+<style scoped>
+:deep(.slick-slide) {
+  height: 100%;
+  line-height: 160px;
+  overflow: hidden;
+}
+</style>
