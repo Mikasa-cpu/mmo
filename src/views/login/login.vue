@@ -69,8 +69,8 @@ function goToUser() {
   router.push("/user");
 }
 
-const value = ref("");
-const value1 = ref("");
+const value = ref("1760609957@163.com");
+const value1 = ref("153153135");
 
 watch(value, () => {
   console.log(value.value);
